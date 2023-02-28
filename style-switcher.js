@@ -17,7 +17,7 @@ function setActiveStyle(color) {
             style.removeAttribute("disabled");
         }
         else {
-            style.setAttribute("disabled", "true");
+            style.setAttribute("disabled", "true"); 
         }
 
 
