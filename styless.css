@@ -689,8 +689,14 @@ h3.my-profession {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     margin-bottom: 30px;
+    margin-right: 150px;
 }
-
+.portfolio .portfolio-item1 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    margin-bottom: 30px;
+    margin-right: 150px;
+}
 .portfolio .portfolio-item-inner {
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
@@ -700,8 +706,7 @@ h3.my-profession {
 .portfolio .portfolio-item-inner:hover {
     box-shadow: 0 0 400px rgba(180, 0, 99, 0.15);
     transform: scale(1.1);
-    border: 0.1px solid rgb(127, 169, 240)
-
+    border: 0.9px solid rgb(64, 196, 233);
 }
 .portfolio .portfolio-item-inner .portfolio-img img {
     width: 99%;
@@ -861,10 +866,12 @@ h3.my-profession {
     }
 }
 
+
 @media (max-width:991px) {
 
     .contact .contact-info-item,
     .portfolio .portfolio-item,
+    .portfolio .portfolio-item1,
     .service .service-item {
         flex: 0 0 50%;
         max-width: 50%;
@@ -883,9 +890,10 @@ h3.my-profession {
 
 @media (max-width:767px) {
 
-    .contact .contact-form .col-6,
+    .contact .contact-form .col-6,::before .home .home-img img.home-img::after,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
+    .portfolio .portfolio-item1,
     .service .service-item,
     .about .about-content .experience,
     .about .about-content .education,
@@ -898,7 +906,8 @@ h3.my-profession {
 
 @media (max-width:767px) {
 
-    .portfolio .portfolio-item,
+    .portfolio .portfolio-item,::before .home .home-img img.home-img::after,
+    .portfolio .portfolio-item1,
     .about .about-content .personal-info .info-item {
         flex: 0 0 100%;
         max-width: 100%;

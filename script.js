@@ -1,10 +1,9 @@
 // animate
 var typed = new Typed(".typing", {
-    strings: ["Web Designer", "Web Developer",  "Programmer", "Circuit Design &", "Embedded Technoliest"],
+    strings: ["PRADEEP S"],
     typeSpeed: 100,
-    BackSpeed: 60,
-    loop: true
-})
+    // BackSpeed: 1000,
+    loop: true})
 // aside
 const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll("li"),
