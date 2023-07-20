@@ -1,9 +1,9 @@
 // animate
-var typed = new Typed(".typing", {
-    strings: ["PRADEEP S"],
-    typeSpeed: 100,
-    // BackSpeed: 1000,
-    loop: true})
+// var typed = new Typed(".typing", {
+//     strings: ["PRADEEP S"],
+//     typeSpeed: 100,
+//     // BackSpeed: 1000,
+//     loop: true})
 // aside
 const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll("li"),
